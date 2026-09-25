@@ -1,0 +1,43 @@
+{
+  "agent": "sovereign-social-impact-finance-agent",
+  "version": "0.1.0",
+  "note": "Deterministic arithmetic helpers. External evidence, comparability, causality and investment conclusions require analyst review.",
+  "operations": [
+    {
+      "operation": "npv",
+      "description": "Periodic NPV; cashflows[0] is time zero."
+    },
+    {
+      "operation": "dscr",
+      "description": "Debt-service coverage ratio."
+    },
+    {
+      "operation": "scale",
+      "description": "Explicit arithmetic unit conversion."
+    },
+    {
+      "operation": "holding_period_return",
+      "description": "Holding-period return from price, income, funding and transaction costs."
+    },
+    {
+      "operation": "debt_path",
+      "description": "Stylized sovereign debt-to-GDP path under supplied macro assumptions."
+    },
+    {
+      "operation": "swap_value",
+      "description": "PV debt-service relief, program commitment, fees and net fiscal savings."
+    },
+    {
+      "operation": "blended_loss_allocation",
+      "description": "First-loss, guarantee and residual investor-loss allocation."
+    },
+    {
+      "operation": "outcome_payment",
+      "description": "Capped payment for verified outcomes."
+    },
+    {
+      "operation": "mobilisation_ratio",
+      "description": "Private capital divided by concessional capital."
+    }
+  ]
+}
