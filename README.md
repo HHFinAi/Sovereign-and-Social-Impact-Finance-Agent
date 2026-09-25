@@ -1,5 +1,7 @@
 # Sovereign and Social-Impact Finance Agent
 
+[![Validate research workflow](https://github.com/HHFinAi/Sovereign-and-Social-Impact-Finance-Agent/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/HHFinAi/Sovereign-and-Social-Impact-Finance-Agent/actions/workflows/validate.yml)
+
 **Institutional-quality buy-side research, designed to support tradable investment decisions through a traceable, auditable workflow.**
 
 Separates sovereign repayment, contractual recourse, net fiscal economics, financing additionality, social outcomes and the existence of an investable instrument. Built by **HHFinAi** for investment analysts, fixed-income/equity specialists, portfolio managers and investment committees.
