@@ -1,0 +1,786 @@
+{
+  "schema_version": "1.0",
+  "name": "sovereign-social-impact-finance-agent",
+  "title": "Sovereign and Social-Impact Finance Agent",
+  "version": "0.1.0",
+  "owner": "HHFinAi",
+  "default_route": "sovereign-bond",
+  "routes": {
+    "sovereign-bond": {
+      "title": "Sovereign Bond",
+      "nodes": [
+        {
+          "id": "mandate",
+          "depends_on": []
+        },
+        {
+          "id": "evidence",
+          "depends_on": [
+            "mandate"
+          ]
+        },
+        {
+          "id": "sovereign",
+          "depends_on": [
+            "evidence"
+          ]
+        },
+        {
+          "id": "legal",
+          "depends_on": [
+            "sovereign"
+          ]
+        },
+        {
+          "id": "structure",
+          "depends_on": [
+            "legal"
+          ]
+        },
+        {
+          "id": "fiscal",
+          "depends_on": [
+            "structure"
+          ]
+        },
+        {
+          "id": "additionality",
+          "depends_on": [
+            "fiscal"
+          ]
+        },
+        {
+          "id": "safeguards",
+          "depends_on": [
+            "additionality"
+          ]
+        },
+        {
+          "id": "outcomes",
+          "depends_on": [
+            "safeguards"
+          ]
+        },
+        {
+          "id": "market",
+          "depends_on": [
+            "outcomes"
+          ]
+        },
+        {
+          "id": "valuation",
+          "depends_on": [
+            "market"
+          ]
+        },
+        {
+          "id": "expression",
+          "depends_on": [
+            "valuation"
+          ]
+        },
+        {
+          "id": "monitoring",
+          "depends_on": [
+            "expression"
+          ]
+        },
+        {
+          "id": "challenge",
+          "depends_on": [
+            "monitoring"
+          ]
+        },
+        {
+          "id": "memo",
+          "depends_on": [
+            "challenge"
+          ]
+        }
+      ],
+      "asset_types": [
+        "bond"
+      ],
+      "primary_evidence_kinds": [
+        "issuer",
+        "instrument",
+        "official",
+        "contract",
+        "ecological"
+      ],
+      "required_label": null
+    },
+    "sovereign-social-bond": {
+      "title": "Sovereign Social Bond",
+      "nodes": [
+        {
+          "id": "mandate",
+          "depends_on": []
+        },
+        {
+          "id": "evidence",
+          "depends_on": [
+            "mandate"
+          ]
+        },
+        {
+          "id": "sovereign",
+          "depends_on": [
+            "evidence"
+          ]
+        },
+        {
+          "id": "legal",
+          "depends_on": [
+            "sovereign"
+          ]
+        },
+        {
+          "id": "structure",
+          "depends_on": [
+            "legal"
+          ]
+        },
+        {
+          "id": "fiscal",
+          "depends_on": [
+            "structure"
+          ]
+        },
+        {
+          "id": "additionality",
+          "depends_on": [
+            "fiscal"
+          ]
+        },
+        {
+          "id": "safeguards",
+          "depends_on": [
+            "additionality"
+          ]
+        },
+        {
+          "id": "outcomes",
+          "depends_on": [
+            "safeguards"
+          ]
+        },
+        {
+          "id": "market",
+          "depends_on": [
+            "outcomes"
+          ]
+        },
+        {
+          "id": "valuation",
+          "depends_on": [
+            "market"
+          ]
+        },
+        {
+          "id": "expression",
+          "depends_on": [
+            "valuation"
+          ]
+        },
+        {
+          "id": "monitoring",
+          "depends_on": [
+            "expression"
+          ]
+        },
+        {
+          "id": "challenge",
+          "depends_on": [
+            "monitoring"
+          ]
+        },
+        {
+          "id": "memo",
+          "depends_on": [
+            "challenge"
+          ]
+        }
+      ],
+      "asset_types": [
+        "bond"
+      ],
+      "primary_evidence_kinds": [
+        "issuer",
+        "instrument",
+        "official",
+        "contract",
+        "ecological"
+      ],
+      "required_label": "social"
+    },
+    "debt-for-development-swap": {
+      "title": "Debt For Development Swap",
+      "nodes": [
+        {
+          "id": "mandate",
+          "depends_on": []
+        },
+        {
+          "id": "evidence",
+          "depends_on": [
+            "mandate"
+          ]
+        },
+        {
+          "id": "sovereign",
+          "depends_on": [
+            "evidence"
+          ]
+        },
+        {
+          "id": "legal",
+          "depends_on": [
+            "sovereign"
+          ]
+        },
+        {
+          "id": "structure",
+          "depends_on": [
+            "legal"
+          ]
+        },
+        {
+          "id": "fiscal",
+          "depends_on": [
+            "structure"
+          ]
+        },
+        {
+          "id": "additionality",
+          "depends_on": [
+            "fiscal"
+          ]
+        },
+        {
+          "id": "safeguards",
+          "depends_on": [
+            "additionality"
+          ]
+        },
+        {
+          "id": "outcomes",
+          "depends_on": [
+            "safeguards"
+          ]
+        },
+        {
+          "id": "market",
+          "depends_on": [
+            "outcomes"
+          ]
+        },
+        {
+          "id": "valuation",
+          "depends_on": [
+            "market"
+          ]
+        },
+        {
+          "id": "expression",
+          "depends_on": [
+            "valuation"
+          ]
+        },
+        {
+          "id": "monitoring",
+          "depends_on": [
+            "expression"
+          ]
+        },
+        {
+          "id": "challenge",
+          "depends_on": [
+            "monitoring"
+          ]
+        },
+        {
+          "id": "memo",
+          "depends_on": [
+            "challenge"
+          ]
+        }
+      ],
+      "asset_types": [
+        "bond",
+        "bilateral_program"
+      ],
+      "primary_evidence_kinds": [
+        "issuer",
+        "instrument",
+        "official",
+        "contract",
+        "ecological"
+      ],
+      "required_label": null
+    },
+    "blended-finance": {
+      "title": "Blended Finance",
+      "nodes": [
+        {
+          "id": "mandate",
+          "depends_on": []
+        },
+        {
+          "id": "evidence",
+          "depends_on": [
+            "mandate"
+          ]
+        },
+        {
+          "id": "sovereign",
+          "depends_on": [
+            "evidence"
+          ]
+        },
+        {
+          "id": "legal",
+          "depends_on": [
+            "sovereign"
+          ]
+        },
+        {
+          "id": "structure",
+          "depends_on": [
+            "legal"
+          ]
+        },
+        {
+          "id": "fiscal",
+          "depends_on": [
+            "structure"
+          ]
+        },
+        {
+          "id": "additionality",
+          "depends_on": [
+            "fiscal"
+          ]
+        },
+        {
+          "id": "safeguards",
+          "depends_on": [
+            "additionality"
+          ]
+        },
+        {
+          "id": "outcomes",
+          "depends_on": [
+            "safeguards"
+          ]
+        },
+        {
+          "id": "market",
+          "depends_on": [
+            "outcomes"
+          ]
+        },
+        {
+          "id": "valuation",
+          "depends_on": [
+            "market"
+          ]
+        },
+        {
+          "id": "expression",
+          "depends_on": [
+            "valuation"
+          ]
+        },
+        {
+          "id": "monitoring",
+          "depends_on": [
+            "expression"
+          ]
+        },
+        {
+          "id": "challenge",
+          "depends_on": [
+            "monitoring"
+          ]
+        },
+        {
+          "id": "memo",
+          "depends_on": [
+            "challenge"
+          ]
+        }
+      ],
+      "asset_types": [
+        "bond",
+        "private_project"
+      ],
+      "primary_evidence_kinds": [
+        "issuer",
+        "instrument",
+        "official",
+        "contract",
+        "ecological"
+      ],
+      "required_label": null
+    },
+    "outcome-finance": {
+      "title": "Outcome Finance",
+      "nodes": [
+        {
+          "id": "mandate",
+          "depends_on": []
+        },
+        {
+          "id": "evidence",
+          "depends_on": [
+            "mandate"
+          ]
+        },
+        {
+          "id": "sovereign",
+          "depends_on": [
+            "evidence"
+          ]
+        },
+        {
+          "id": "legal",
+          "depends_on": [
+            "sovereign"
+          ]
+        },
+        {
+          "id": "structure",
+          "depends_on": [
+            "legal"
+          ]
+        },
+        {
+          "id": "fiscal",
+          "depends_on": [
+            "structure"
+          ]
+        },
+        {
+          "id": "additionality",
+          "depends_on": [
+            "fiscal"
+          ]
+        },
+        {
+          "id": "safeguards",
+          "depends_on": [
+            "additionality"
+          ]
+        },
+        {
+          "id": "outcomes",
+          "depends_on": [
+            "safeguards"
+          ]
+        },
+        {
+          "id": "market",
+          "depends_on": [
+            "outcomes"
+          ]
+        },
+        {
+          "id": "valuation",
+          "depends_on": [
+            "market"
+          ]
+        },
+        {
+          "id": "expression",
+          "depends_on": [
+            "valuation"
+          ]
+        },
+        {
+          "id": "monitoring",
+          "depends_on": [
+            "expression"
+          ]
+        },
+        {
+          "id": "challenge",
+          "depends_on": [
+            "monitoring"
+          ]
+        },
+        {
+          "id": "memo",
+          "depends_on": [
+            "challenge"
+          ]
+        }
+      ],
+      "asset_types": [
+        "outcome_contract",
+        "bond"
+      ],
+      "primary_evidence_kinds": [
+        "issuer",
+        "instrument",
+        "official",
+        "contract",
+        "ecological"
+      ],
+      "required_label": null
+    }
+  },
+  "stages": {
+    "mandate": {
+      "id": "mandate",
+      "title": "Mandate and investable question",
+      "required_sections": [
+        "decision_question",
+        "instrument_boundary",
+        "mandate_constraints"
+      ],
+      "standard_ids": [],
+      "prompt_path": "prompts/stages/mandate.md",
+      "requires_calculation": false,
+      "investment_gate": false
+    },
+    "evidence": {
+      "id": "evidence",
+      "title": "Evidence intake and reconciliation",
+      "required_sections": [
+        "source_register_review",
+        "boundary_reconciliation",
+        "material_gaps"
+      ],
+      "standard_ids": [],
+      "prompt_path": "prompts/stages/evidence.md",
+      "requires_calculation": false,
+      "investment_gate": false
+    },
+    "sovereign": {
+      "id": "sovereign",
+      "title": "Sovereign balance sheet and debt vulnerability",
+      "required_sections": [
+        "fiscal_external_profile",
+        "debt_perimeter",
+        "stress_channels"
+      ],
+      "standard_ids": [
+        "WB-DSF",
+        "IMF-DSF-2026"
+      ],
+      "prompt_path": "prompts/stages/sovereign.md",
+      "requires_calculation": false,
+      "investment_gate": false
+    },
+    "legal": {
+      "id": "legal",
+      "title": "Legal structure, ranking and recourse",
+      "required_sections": [
+        "creditor_rights",
+        "governing_law_and_restructuring",
+        "guarantee_enforceability"
+      ],
+      "standard_ids": [
+        "IMF-WB-SWAPS"
+      ],
+      "prompt_path": "prompts/stages/legal.md",
+      "requires_calculation": false,
+      "investment_gate": false
+    },
+    "structure": {
+      "id": "structure",
+      "title": "Financing structure and sources/uses",
+      "required_sections": [
+        "transaction_map",
+        "sources_uses_and_waterfall",
+        "alternative_structures"
+      ],
+      "standard_ids": [
+        "IMF-WB-SWAPS",
+        "IFC-BLENDED",
+        "GF-D2H"
+      ],
+      "prompt_path": "prompts/stages/structure.md",
+      "requires_calculation": false,
+      "investment_gate": false
+    },
+    "fiscal": {
+      "id": "fiscal",
+      "title": "Net fiscal economics and debt-service savings",
+      "required_sections": [
+        "debt_service_comparison",
+        "fees_and_commitments",
+        "net_fiscal_value"
+      ],
+      "standard_ids": [
+        "IMF-WB-SWAPS"
+      ],
+      "prompt_path": "prompts/stages/fiscal.md",
+      "requires_calculation": true,
+      "investment_gate": false
+    },
+    "additionality": {
+      "id": "additionality",
+      "title": "Financing and social additionality",
+      "required_sections": [
+        "financing_counterfactual",
+        "concessionality_and_crowding_in",
+        "distribution_and_tradeoffs"
+      ],
+      "standard_ids": [
+        "IFC-BLENDED",
+        "IMF-WB-SWAPS"
+      ],
+      "prompt_path": "prompts/stages/additionality.md",
+      "requires_calculation": false,
+      "investment_gate": false
+    },
+    "safeguards": {
+      "id": "safeguards",
+      "title": "Governance, procurement and social safeguards",
+      "required_sections": [
+        "fiduciary_controls",
+        "beneficiary_protection",
+        "grievance_and_oversight"
+      ],
+      "standard_ids": [
+        "IFC-BLENDED",
+        "GF-D2H"
+      ],
+      "prompt_path": "prompts/stages/safeguards.md",
+      "requires_calculation": false,
+      "investment_gate": false
+    },
+    "outcomes": {
+      "id": "outcomes",
+      "title": "Outcome measurement and payment verification",
+      "required_sections": [
+        "theory_of_change",
+        "verification_and_payment",
+        "outcome_risk"
+      ],
+      "standard_ids": [
+        "GF-D2H",
+        "IFC-BLENDED"
+      ],
+      "prompt_path": "prompts/stages/outcomes.md",
+      "requires_calculation": false,
+      "investment_gate": false
+    },
+    "market": {
+      "id": "market",
+      "title": "Instrument, liquidity and market evidence",
+      "required_sections": [
+        "market_snapshot",
+        "comparables",
+        "execution_constraints"
+      ],
+      "standard_ids": [],
+      "prompt_path": "prompts/stages/market.md",
+      "requires_calculation": false,
+      "investment_gate": false
+    },
+    "valuation": {
+      "id": "valuation",
+      "title": "Financial valuation and scenario underwriting",
+      "required_sections": [
+        "base_case",
+        "downside_and_sensitivities",
+        "priced_in_vs_variant"
+      ],
+      "standard_ids": [],
+      "prompt_path": "prompts/stages/valuation.md",
+      "requires_calculation": true,
+      "investment_gate": false
+    },
+    "expression": {
+      "id": "expression",
+      "title": "Buy-side investment expression and eligibility",
+      "required_sections": [
+        "investment_case",
+        "implementation_conditions",
+        "risk_and_falsifiers"
+      ],
+      "standard_ids": [],
+      "prompt_path": "prompts/stages/expression.md",
+      "requires_calculation": false,
+      "investment_gate": true
+    },
+    "monitoring": {
+      "id": "monitoring",
+      "title": "Stewardship and thesis monitoring",
+      "required_sections": [
+        "engagement_objectives",
+        "monitoring_triggers",
+        "escalation"
+      ],
+      "standard_ids": [],
+      "prompt_path": "prompts/stages/monitoring.md",
+      "requires_calculation": false,
+      "investment_gate": false
+    },
+    "challenge": {
+      "id": "challenge",
+      "title": "Independent challenge and release control",
+      "required_sections": [
+        "counter_case",
+        "control_review",
+        "unresolved_issues"
+      ],
+      "standard_ids": [],
+      "prompt_path": "prompts/stages/challenge.md",
+      "requires_calculation": false,
+      "investment_gate": false
+    },
+    "memo": {
+      "id": "memo",
+      "title": "Investment committee research packet",
+      "required_sections": [
+        "financial_conclusion",
+        "sustainability_conclusion",
+        "decision_conditions"
+      ],
+      "standard_ids": [],
+      "prompt_path": "prompts/stages/memo.md",
+      "requires_calculation": false,
+      "investment_gate": false
+    }
+  },
+  "demo_operation": "swap_value",
+  "demo_arguments": {
+    "debt_service_before": [
+      0,
+      12,
+      12,
+      112
+    ],
+    "debt_service_after": [
+      2,
+      8,
+      8,
+      108
+    ],
+    "program_spending": [
+      0,
+      2,
+      2,
+      2
+    ],
+    "fees": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "annual_discount": 0.05
+  },
+  "demo_assessment": "Fictional debt swap: headline face-value relief is not net fiscal savings. Programme spending and fees must be reconciled before evaluating additionality.",
+  "mode": "host-driven-research",
+  "capabilities": {
+    "embedded_llm": false,
+    "live_data": false,
+    "trade_execution": false,
+    "scheduler": false
+  }
+}
