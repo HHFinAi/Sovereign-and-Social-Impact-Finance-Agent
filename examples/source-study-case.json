@@ -1,0 +1,13 @@
+{
+  "fact": "The Global Fund announced a EUR 75 million Germany–Indonesia Debt2Health agreement on December 16, 2024.",
+  "limitations": [
+    "The announced amount is not net fiscal savings, incremental health outcomes or an investable security price.",
+    "This source study does not determine transaction additionality or financial attractiveness."
+  ],
+  "gaps": [
+    "Full retired and replacement liability schedules, programme commitments and transaction fees.",
+    "Executed agreements, funds-flow, governance and outcome-verification evidence.",
+    "A separately identified investable contract or security; the programme announcement supplies none."
+  ],
+  "conclusion": "NEEDS_DATA: bounded historical source extraction only; contractual, outcome and current investment evidence is incomplete."
+}

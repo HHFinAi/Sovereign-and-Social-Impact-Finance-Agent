@@ -1,0 +1,27 @@
+{
+  "debt_service_before": [
+    0,
+    12,
+    12,
+    112
+  ],
+  "debt_service_after": [
+    2,
+    8,
+    8,
+    108
+  ],
+  "program_spending": [
+    0,
+    2,
+    2,
+    2
+  ],
+  "fees": [
+    1,
+    0,
+    0,
+    0
+  ],
+  "annual_discount": 0.05
+}

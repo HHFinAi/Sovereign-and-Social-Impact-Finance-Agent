@@ -1,0 +1,72 @@
+{
+  "register_as_of": "2026-09-24",
+  "date_precision_note": "Month-only editions use day 01 as metadata normalization, not an exact publication or legal application date.",
+  "standards": [
+    {
+      "id": "WB-DSF",
+      "title": "World Bank debt sustainability framework resources",
+      "url": "https://www.worldbank.org/en/programs/debt-toolkit/dsf",
+      "version": "Operational framework and country applicability must be checked per run",
+      "source_date": "2018-07-01",
+      "checked_on": "2026-09-24",
+      "status": "REFERENCE_RESOURCE",
+      "can_apply_as_current_rule": false,
+      "interpretation": "The date identifies the previously operational LIC-DSF generation, not a fresh release or a rule for all sovereigns. Select LIC-DSF versus the market-access-country framework and fetch the actual latest country DSA."
+    },
+    {
+      "id": "IMF-DSF-2026",
+      "title": "IMF Executive Board 2026 LIC-DSF review",
+      "url": "https://www.imf.org/en/news/articles/2026/09/21/pr26296-lics-imf-executive-board-reviews-the-joint-world-bank-debt-sustainability-framework",
+      "version": "September 21, 2026 release",
+      "source_date": "2026-09-21",
+      "checked_on": "2026-09-24",
+      "status": "APPROVED_FUTURE_OPERATIONAL",
+      "can_apply_as_current_rule": false,
+      "interpretation": "Board review September 9, 2026. Revised framework expected operational in H2 2027; do not apply reforms as currently operational on September 24, 2026. Our arithmetic helper is not an IMF/WB DSA implementation."
+    },
+    {
+      "id": "IMF-WB-SWAPS",
+      "title": "IMF / World Bank debt-for-development swaps approach",
+      "url": "https://www.imf.org/en/publications/policy-papers/issues/2024/08/05/debt-for-development-swaps-an-approach-framework-553146",
+      "version": "August 5, 2024 policy paper",
+      "source_date": "2024-08-05",
+      "checked_on": "2026-09-24",
+      "status": "ANALYTICAL_REFERENCE",
+      "can_apply_as_current_rule": false,
+      "interpretation": "Reference methodology, not legal advice, certification, or evidence of issuer compliance. Verify applicability and the underlying text for each research run."
+    },
+    {
+      "id": "GF-D2H",
+      "title": "Global Fund Debt2Health programme",
+      "url": "https://www.theglobalfund.org/en/how-we-raise-funds/innovative-finance/debt-swaps-debt2health/",
+      "version": "Programme resource checked September 24, 2026",
+      "source_date": "2026-09-24",
+      "checked_on": "2026-09-24",
+      "status": "REFERENCE_RESOURCE",
+      "can_apply_as_current_rule": false,
+      "interpretation": "Debt2Health describes negotiated debt swaps for health. Programme participation does not itself create a publicly tradable instrument or establish net fiscal additionality."
+    },
+    {
+      "id": "IFC-BLENDED",
+      "title": "IFC blended-finance principles",
+      "url": "https://www.ifc.org/en/what-we-do/sector-expertise/blended-finance/how-blended-finance-works",
+      "version": "Reference resource checked September 24, 2026",
+      "source_date": "2026-09-24",
+      "checked_on": "2026-09-24",
+      "status": "VOLUNTARY_GUIDANCE",
+      "can_apply_as_current_rule": false,
+      "interpretation": "Analyse rationale, additionality, minimum concessionality, crowding-in, commercial sustainability, market reinforcement and standards. Mobilisation ratios alone do not establish additionality."
+    },
+    {
+      "id": "ICMA-SBP",
+      "title": "ICMA Social Bond Principles",
+      "url": "https://www.icmagroup.org/sustainable-finance/the-principles-guidelines-and-handbooks/social-bond-principles-sbp",
+      "version": "June 2025",
+      "source_date": "2025-06-01",
+      "checked_on": "2026-09-24",
+      "status": "VOLUNTARY_GUIDANCE",
+      "can_apply_as_current_rule": false,
+      "interpretation": "Reference methodology, not legal advice, certification, or evidence of issuer compliance. Verify applicability and the underlying text for each research run."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "agent": "sovereign-social-impact-finance-agent",
+  "routes": 5,
+  "stages": 15,
+  "operations": 9,
+  "checks": "PASS",
+  "remote_urls_checked": false
+}

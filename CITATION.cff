@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite this software and its version; citation is not an endorsement."
+title: "Sovereign and Social-Impact Finance Agent"
+authors:
+  - name: HHFinAi
+version: 0.1.0
+date-released: 2026-09-24
+license: MIT
+abstract: "Separates sovereign repayment, contractual recourse, net fiscal economics, financing additionality, social outcomes and the existence of an investable instrument. Local host-driven research runtime; no trade execution or independent audit certification."
+keywords:
+  - sustainable-finance
+  - sovereign-debt
+  - debt-swaps
+  - social-impact
+  - blended-finance
+  - development-finance
+  - impact-investing
+  - buy-side
+  - ai-agents
+  - agent-skills
+  - investment-research
+  - audit-trail
+  - evidence-based
+  - python
