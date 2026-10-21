@@ -1,0 +1,48 @@
+{
+  "countries": [
+    {
+      "benefit_reform_burden_percent_output": 28.8,
+      "country": "japan",
+      "employment_scenario_burden_percent_output": 30.0,
+      "mechanical_common_assumption_burden_percent_output": 32.0,
+      "productivity_fixed_benefit_burden_percent_output": 29.090909,
+      "productivity_indexed_benefit_burden_percent_output": 32.0,
+      "public_pensions_2050_percent_gdp": 9.3,
+      "public_pensions_baseline_percent_gdp": 9.1,
+      "public_pensions_change_pp_gdp": 0.2,
+      "ratio_2024": 54.9,
+      "ratio_2054": 80,
+      "ratio_increase_percent": 45.71949
+    },
+    {
+      "benefit_reform_burden_percent_output": 21.492,
+      "country": "germany",
+      "employment_scenario_burden_percent_output": 22.3875,
+      "mechanical_common_assumption_burden_percent_output": 23.88,
+      "productivity_fixed_benefit_burden_percent_output": 21.709091,
+      "productivity_indexed_benefit_burden_percent_output": 23.88,
+      "public_pensions_2050_percent_gdp": 11,
+      "public_pensions_baseline_percent_gdp": 10.2,
+      "public_pensions_change_pp_gdp": 0.8,
+      "ratio_2024": 39.8,
+      "ratio_2054": 59.7,
+      "ratio_increase_percent": 50.0
+    },
+    {
+      "benefit_reform_burden_percent_output": 16.596,
+      "country": "uk",
+      "employment_scenario_burden_percent_output": 17.2875,
+      "mechanical_common_assumption_burden_percent_output": 18.44,
+      "productivity_fixed_benefit_burden_percent_output": 16.763636,
+      "productivity_indexed_benefit_burden_percent_output": 18.44,
+      "public_pensions_2050_percent_gdp": 8.5,
+      "public_pensions_baseline_percent_gdp": 7.6,
+      "public_pensions_change_pp_gdp": 0.9,
+      "ratio_2024": 34,
+      "ratio_2054": 46.1,
+      "ratio_increase_percent": 35.588235
+    }
+  ],
+  "prepared_on": "2026-10-21",
+  "scope": "Illustrative identity alongside official projections; demographic 2054 and pension 2050 horizons deliberately not merged."
+}

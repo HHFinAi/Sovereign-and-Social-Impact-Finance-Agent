@@ -1,0 +1,12 @@
+{
+  "prepared_on": "2026-10-21",
+  "status": "PUBLIC_EVIDENCE_WITH_LABELLED_SCENARIOS",
+  "assumptions": {
+    "working_age_employment_fraction": 0.75,
+    "pension_to_worker_output_fraction": 0.3,
+    "employment_reform_fraction": 0.8,
+    "benefit_ratio_reform_fraction": 0.27,
+    "gdp_level_productivity_uplift": 0.1
+  },
+  "assumption_note": "Common hypothetical fiscal bridge, not national labour participation, pension replacement rates or official debt sustainability projections. Employment and productivity shocks are level changes, not annual growth rates."
+}

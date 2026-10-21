@@ -1,0 +1,94 @@
+{
+  "evidence_cutoff": "2026-10-21",
+  "extraction": "Manual bounded factual extracts checked by assistant; original documents not redistributed.",
+  "sources": [
+    {
+      "id": "OECD_RATIO",
+      "publisher": "OECD, underlying UN World Population Prospects 2024",
+      "url": "https://www.oecd.org/en/publications/2025/11/pensions-at-a-glance-2025_76510fe4/full-report/demographic-old-age-to-working-age-ratio_25476b96.html",
+      "publication_date": "2025-11-27",
+      "observation_period": "2024 estimate and 2054 medium-variant projection",
+      "retrieved_on": "2026-10-21",
+      "locator": "Table 6.2",
+      "review_status": "ASSISTANT_CHECKED_PRIMARY_SOURCE",
+      "raw_source_sha256": null,
+      "metrics": {
+        "japan_2024": {
+          "value": 54.9,
+          "unit": "people_65plus_per_100_people_20to64",
+          "kind": "REPORTED"
+        },
+        "japan_2054": {
+          "value": 80,
+          "unit": "people_65plus_per_100_people_20to64",
+          "kind": "DEMOGRAPHIC_PROJECTION"
+        },
+        "germany_2024": {
+          "value": 39.8,
+          "unit": "people_65plus_per_100_people_20to64",
+          "kind": "REPORTED"
+        },
+        "germany_2054": {
+          "value": 59.7,
+          "unit": "people_65plus_per_100_people_20to64",
+          "kind": "DEMOGRAPHIC_PROJECTION"
+        },
+        "uk_2024": {
+          "value": 34,
+          "unit": "people_65plus_per_100_people_20to64",
+          "kind": "REPORTED"
+        },
+        "uk_2054": {
+          "value": 46.1,
+          "unit": "people_65plus_per_100_people_20to64",
+          "kind": "DEMOGRAPHIC_PROJECTION"
+        }
+      },
+      "notes": "Age groups, not observed workers and pension beneficiaries. Extracted from OECD's published table; no claim of reconstructing raw UN population microdata."
+    },
+    {
+      "id": "OECD_PENSIONS",
+      "publisher": "OECD, compiling national and European Commission projections",
+      "url": "https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/long-term-projections-of-public-pension-expenditure_af4ed734.html",
+      "publication_date": "2025-11-27",
+      "observation_period": "2023-24 baseline; 2050 projection",
+      "retrieved_on": "2026-10-21",
+      "locator": "Table 8.4",
+      "review_status": "ASSISTANT_CHECKED_PRIMARY_SOURCE",
+      "raw_source_sha256": null,
+      "metrics": {
+        "japan_base": {
+          "value": 9.1,
+          "unit": "percent_GDP",
+          "kind": "REPORTED"
+        },
+        "japan_2050": {
+          "value": 9.3,
+          "unit": "percent_GDP",
+          "kind": "POLICY_CONDITIONAL_PROJECTION"
+        },
+        "germany_base": {
+          "value": 10.2,
+          "unit": "percent_GDP",
+          "kind": "REPORTED"
+        },
+        "germany_2050": {
+          "value": 11,
+          "unit": "percent_GDP",
+          "kind": "POLICY_CONDITIONAL_PROJECTION"
+        },
+        "uk_base": {
+          "value": 7.6,
+          "unit": "percent_GDP",
+          "kind": "REPORTED"
+        },
+        "uk_2050": {
+          "value": 8.5,
+          "unit": "percent_GDP",
+          "kind": "POLICY_CONDITIONAL_PROJECTION"
+        }
+      },
+      "notes": "Different underlying national methods/vintages. Demographic horizon is 2054; fiscal horizon is 2050. They are juxtaposed, never used as matched-date causal attribution."
+    }
+  ]
+}
