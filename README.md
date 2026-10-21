@@ -1,5 +1,7 @@
 # Sovereign and Social-Impact Finance Agent
 
+> **Responsible AI:** Analyst-controlled research; verify evidence, disclose AI assistance and protect confidential information. [Policy and project-specific checks](RESPONSIBLE_AI.md).
+
 **New research, 21 October 2026:** [Ageing and fiscal pressure — policy mediates the demographic arithmetic](examples/ageing-fiscal/README.md). Japan, Germany and UK public projections are compared with an original employment/productivity/benefit sensitivity model. Benefit indexation matters; age ratios do not establish sovereign spreads. [Chart and memo](examples/ageing-fiscal/README.md) · [Runnable results](examples/ageing-fiscal/RESULTS.md). Country fiscal and security valuation inputs remain `NEEDS_DATA`.
 
 [![Validate research workflow](https://github.com/HHFinAi/Sovereign-and-Social-Impact-Finance-Agent/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/HHFinAi/Sovereign-and-Social-Impact-Finance-Agent/actions/workflows/validate.yml)

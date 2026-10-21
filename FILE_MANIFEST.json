@@ -5,15 +5,15 @@
     ".gitattributes": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
     ".github/workflows/validate.yml": "4c60f94fefe664d2e10a642bcfa1af7fe3a8ab7591c1833fad4c43d50e5ccefa",
     ".gitignore": "c27979894e76865d6a280fd00bd25f5295521674627a80d3b2099f8b2eb83ccf",
-    "AGENTS.md": "e7211ecf6913b99afcd37502294110b818060b19943cc624f23abf95026aa994",
-    "CHANGELOG.md": "f8e1eedbb933f356c1604706e4fb58a3ac3698e44331419987658090d1287e8e",
+    "AGENTS.md": "1603eadff2db49da491a1e54ffd864121aa7244d04cc5976732d9706db4634e8",
+    "CHANGELOG.md": "ac3649dce741e62d13cc1ac80a157acbc221e868e200491420cca23d839d91b9",
     "CITATION.cff": "6ff48c3ee9dad3cb4d9e45be97cd8ebad3857939add1d1c6532e36429064240d",
     "COMMON_CORE_MANIFEST.json": "d69534682cb775929274ac3a465c886bc5e387ee43d8f673b6337bd9f0ff7990",
-    "CONTRIBUTING.md": "43183fc73dbec1ed3539c9b20a916b18ed5d16b1a849c3c8dd0422f0f14d3ac8",
+    "CONTRIBUTING.md": "b5ba238e30fcb247643fcfde4d7b2c85decea65dc06e2f6526c0a896335ae7ad",
     "LICENSE": "0096c6f4b18e36749e9652b24d63dbe9d2f36ef66e2ea80e61660c7d3f10b7fd",
     "NOTICE.md": "0f662d0f04517f1fc352d90cd2f69067e0aa7ec20167e8f06da88c64c61faf88",
     "PROMPTS.md": "1e5885fcb067f24c1ebdafe4cafcfe1ef880c95cc28fa5a80e3d4978e46426f2",
-    "README.md": "b3865ae95ef329208db73b6dcffc6705ed3afba2defdf6ce4a47c7c32963f9ce",
+    "README.md": "b70bffbe5360664bb1a3670035c831f20eb09cb1c389751a51d18318948b9fc6",
     "SECURITY.md": "0a73124a23b3c34faf2dc0350c5b9873fdebcaf15ccc0eaf43a99e8ecc5b61a2",
     "SKILL.md": "b4bcd267ad2c3b72affdcd13610fb210c2e74a9191cd2e49755f11353fda6389",
     "START_HERE.md": "515c1f9079539d2dbc442bf9332f03582ce0ad23f6f638944c911909cfb97c2b",
@@ -112,8 +112,13 @@
     "tests/test_analytics_common.py": "9c1607600455b7a45728e8f3455c90e39494475969861d751667ece70e950077",
     "tests/test_cli.py": "887a617a1a9c0b0da8b640bdf52bd6ef66a023141f128bc5edd6614186232872",
     "tests/test_controls.py": "99a613c6d888aed39a023629c31cd59aea9a06db0426aa3ed337e9b7828b0af2",
-    "tests/test_metadata.py": "08512563116643e106c3e9e9e58e263a4d99ebdc188ef360384fe858928ea85b"
+    "tests/test_metadata.py": "08512563116643e106c3e9e9e58e263a4d99ebdc188ef360384fe858928ea85b",
+    "RESPONSIBLE_AI.md": "e0b9c6adfc5444b5dd44d17aad747edc10b76d2f3a679359e7a945894121fda7"
   },
   "note": "Manifest excludes itself; hashes are integrity aids, not third-party authentication.",
-  "inventory_updated_by": "AI assistant; byte inventory check, not independent human source validation."
+  "inventory_updated_by": "AI assistant; byte inventory check, not independent human source validation.",
+  "responsible_ai_documentation_update": {
+    "date": "2026-10-22",
+    "scope": "Only the policy and documentation paths in this commit were updated; no runtime validation or human research approval is inferred."
+  }
 }
